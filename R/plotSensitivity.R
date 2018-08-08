@@ -11,9 +11,9 @@
 #' @author Natasha A. Karp, \email{natasha.karp@@astrazeneca.com} 
 #'
 plotSensitivity <- function(data) {
-  ggplot(data=data,  mapping=aes(x=data$PDXn, y=data$MissedCalls, col=paste(data$Biol_RR, "%"))) +
-  geom_point(size=4) +
-  geom_smooth(method="loess", se=FALSE) +
+  ggplot(data=data,  mapping=aes_string(x="PDXn", y="MissedCalls")) +
+  geom_point(size=4, mapping=aes(col=paste(data$Biol_RR, "%"))) +
+  geom_smooth(method="loess", se=FALSE,mapping=aes(col=paste(data$Biol_RR, "%"))) +
   xlab("Number of PDX models") +
   ylab("Missed calls (%)") +
   scale_x_continuous(breaks = data$PDXn,

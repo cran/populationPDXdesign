@@ -11,7 +11,7 @@
 #' @author Natasha A. Karp, \email{natasha.karp@@astrazeneca.com} 
 #'
 plotFalsepositive <- function(data) {
-  ggplot(data=data,  mapping=aes(x=data$PDXn, y=data$FalsePositiverate, col=data$PDXr)) +
+  ggplot(data=data,  mapping=aes_string(x="PDXn", y="FalsePositiverate", col="PDXr")) +
   geom_point(size=4) +
   geom_line() +
   xlab("Number of PDX models") +

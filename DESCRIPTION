@@ -1,8 +1,8 @@
 Package: populationPDXdesign
 Type: Package
 Title: Designing Population PDX Studies
-Version: 1.0.2
-Date: 2018-06-12
+Version: 1.0.3
+Date: 2018-08-08
 Authors@R: c(person("Maria Luisa", "Guerriero", email = "maria.guerriero@astrazeneca.com", role = c("aut", "cre")),
 		         person("Natasha", "Karp", email = "natasha.karp@astrazeneca.com", role = c("aut")))
 Description: Run simulations to assess the impact of various designs features
@@ -16,9 +16,9 @@ Imports: devtools, ggplot2, plyr, roxygen2, shiny, shinycssloaders
 Suggests: testthat
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2018-06-12 16:50:50 UTC; kpkr710
+Packaged: 2018-08-08 12:19:41 UTC; kpkr710
 Author: Maria Luisa Guerriero [aut, cre],
   Natasha Karp [aut]
 Maintainer: Maria Luisa Guerriero <maria.guerriero@astrazeneca.com>
 Repository: CRAN
-Date/Publication: 2018-06-15 14:52:30 UTC
+Date/Publication: 2018-08-08 14:40:07 UTC

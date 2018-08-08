@@ -1,4 +1,4 @@
-c52841ba5eb418432ae7d8d1b52065d9 *DESCRIPTION
+7b14082f7194b3252ca78895d167b20f *DESCRIPTION
 1e2e8893eed73a921015804d05e7c03d *NAMESPACE
 3a0e676b0bcc6707044100fbf1aedb74 *R/callsInSingleExperiment.R
 6225c223d6b6b0cac5e36d1d08e1b885 *R/getMode.R
@@ -7,8 +7,8 @@ eb60a397a087a43087594749a44449f1 *R/namespace.R
 40a960bca56eee3347037e37fc385591 *R/noMissedCalls.R
 7a4fb1dc107de3feb4fde4253de26e47 *R/outcomeInSingleExperiment.R
 dec8d6a23ebe3394c420f8d3ce4586a3 *R/outcomeMultipleExperiments.R
-ab67a288e6d8ffe01ab93df109986bde *R/plotFalsepositive.R
-b176a002a9645afc175c082ae54b0c5c *R/plotSensitivity.R
+c6e7cef53c56078dce9db3d670ed1019 *R/plotFalsepositive.R
+64ce92349e35627dd51057c135eebfaf *R/plotSensitivity.R
 2d3714dd177c364dd47e2ca4006b87c2 *R/shiny.R
 41d4b2b0efe83bacee9857c7f7a0c163 *R/varyingPDXnPDXrBiolRR.R
 65051060461a052c8c834feecb9f80e0 *man/callsInSingleExperiment.Rd
